@@ -22,6 +22,8 @@ public class Pro3 {
 		System.out.println("ll.poolFirst:"+ll.pollFirst());
 		System.out.println(ll.poll());
 		System.out.println(ll.pollLast());
+		ll.offerFirst("First");
+		System.out.println(ll);
 		
 	}
 

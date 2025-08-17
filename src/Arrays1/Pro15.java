@@ -13,7 +13,7 @@ public class Pro15 {
 		for(int i=0;i<arr.length;i++) {
 			arr[i]=sc.nextInt();
 		}
-		int temp=arr[0];
+		int temp=0;
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]>temp) {
 				temp=arr[i];

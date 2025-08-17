@@ -29,7 +29,6 @@ public class Pro13 {
 				}
 			}
 			visited[i]=count;
-			
 		}
 		for(int i=0;i<arr.length;i++) {
 			if(visited[i]!=0) {
