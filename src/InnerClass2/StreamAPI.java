@@ -9,19 +9,21 @@ public class StreamAPI {
 	public static void main(String[] args) {
 		List<Integer> nums= Arrays.asList(4,5,7,9,8);
 		
-//		Stream<Integer>data= nums.stream();
+		Stream<Integer>data= nums.stream();
 //		long data1=data.count();
 //		System.out.println(data1);
+		
+		// Second operation: Create a FRESH stream to sort and print
 //		Stream<Integer> sortedData=data.sorted();
 //		sortedData.forEach(a->{System.out.println(a);});
 //		data.forEach(n->{System.out.println(n);});//we can use stream only once
 		
-//		for(int n:num) {
-//			System.out.println(n*2);
-//		}
-//		Stream<Integer> mappedData=data.map(n->n*2);//we can write this line in
+		for(int n:nums) {
+			System.out.println(n*2);
+		}
+		Stream<Integer> mappedData=data.map(n->n*2);//we can write this line in
 //												the other format written below
-//		mappedData.forEach(a->{System.out.println(a);});
+		mappedData.forEach(a->{System.out.println(a);});
 		// method 1
 //		Predicate<Integer> predi=new Predicate<Integer>() {
 //			
@@ -43,7 +45,7 @@ public class StreamAPI {
 //			.sorted()
 //			.map(n->n*2)
 //			.forEach(a->{System.out.println(a);});
-		
+		System.out.println("=======================");
 //		nums.stream()
 //		.filter(n->n%2!=0)
 //		.sorted()
@@ -54,7 +56,7 @@ public class StreamAPI {
 		.filter(n->n%2!=0)
 		.sorted()
 		.map(n->n*2)
-		.reduce(0,(a,b)->a+b);
+		.reduce(0, (a,b)->a+b);
 		System.out.println(result);
 	}
 }

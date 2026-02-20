@@ -5,8 +5,6 @@ import java.util.Iterator;
 import java.util.ListIterator;
 import java.util.Scanner;
 
-
-
 public class Pro3 {
 	public static void main(String[] args) {
 		
@@ -30,13 +28,12 @@ public class Pro3 {
 	ArrayList<String> al2=(ArrayList<String>)al.clone();
 	System.out.println(al2);
 	System.out.println(al.subList(1, 3));
-	
+	System.out.println("==========================");
 	ListIterator<String> list1=al.listIterator(al.size());
-	Iterator itr2=al.iterator();
 	while(list1.hasPrevious()) {
-		String str=list1.previous();
-		System.out.println(str);
+		System.out.println(list1.previous());
 	}
+	System.out.println("==============================");
 	al.forEach(a->{
 		System.out.println(a);
 	});

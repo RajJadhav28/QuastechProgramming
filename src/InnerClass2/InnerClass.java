@@ -15,7 +15,7 @@ class A{
 				System.out.println(" in config");
 			}
 	}
-}
+} 
 public class InnerClass {
 	public static void main(String[] args) {
 		A obj=new A();

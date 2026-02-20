@@ -19,6 +19,11 @@ public class Pro1 {
 		sb1.append(" Java how r u ?");
 		System.out.println(sb1);
 		System.out.println(sb1.capacity());
+		StringBuilder sb2 = new StringBuilder("Hello World");
+		sb2.insert(6, "Java ");
+//		String result = sb.toString();
+//		System.out.println(result);//first way
+		System.out.println(sb2);//second way
 	}
 
 }
