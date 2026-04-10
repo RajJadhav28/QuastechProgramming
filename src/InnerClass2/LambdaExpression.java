@@ -10,7 +10,6 @@ public class LambdaExpression {
 //			@Override
 //			public void show() {
 //				System.out.println("show method!!!");
-//				
 //			}
 //		};
 		

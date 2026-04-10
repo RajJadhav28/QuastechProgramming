@@ -12,7 +12,7 @@ public class Pro9 {
 		}
 		System.out.println("Split array length:"+arr.length);
 		//Uses format specifiers like %s (string), %d (integer), %f (float), etc.
-		String arr1[]=s2.split("\\s",2);
+		String arr1[]=s2.split("\\s",3);
 		for(String w:arr1) {
 			System.out.println(w);
 		}

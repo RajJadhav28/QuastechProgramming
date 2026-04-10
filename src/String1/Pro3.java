@@ -15,10 +15,10 @@ public class Pro3 {
 		System.out.println(s2);
 		String s6=new String("Yuvraj");
 		System.out.println(s6);
-		System.out.println(s1.equals(s2));
-		System.out.println(s1.equals(s3));
-		System.out.println(s1.equals(s4));
-		System.out.println(s1.equalsIgnoreCase(s4));
+		System.out.println(s1.equals(s2));//t
+		System.out.println(s1.equals(s3));//t
+		System.out.println(s1.equals(s4));//f
+		System.out.println(s1.equalsIgnoreCase(s4));//t
 		System.out.println(s1.compareTo(s2));
 		System.out.println(s1.compareTo(s3));
 		System.out.println(s1.compareTo(s4));
